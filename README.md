@@ -25,30 +25,66 @@ I have two main sources of data:
 - **Step Count Data**:
   My daily step count data (such as number of steps on a specific day) is sourced from the **iPhone Health app**. Here I will    retrieve the data and integrate it into the project for analysis.
 
+<br>
+
+
 **Bank Account Statement**
+<br><br>
+
 ![image](https://github.com/user-attachments/assets/ecbaa844-5c44-4a58-a1c2-ca24a9b9facc)
+
+<br>
+
 - As it can be seen on the statement it includes the date, place and the amount of money that I spent in that place and time. Some parts of this statement is not necessary in my analysis (such as place), so I will only retrieve dates and expenditures.
 
+<br>
+
 **Step Count Data**
+<br><br>
+
+![image](https://github.com/user-attachments/assets/2211f9cf-5121-4ce7-9d27-6eac68785e49)
+
+<br>
+
 - In the app the the amount of steps for each day is stored, so I will retrieve those data to compare my amount of steps and my spending on the same day.
+
 
 
 ## **Plan**
 
 **Project Objectives**
 - What do I aim to achieve?
+
     - Automate the processing of bank account statements.
     - Combine daily spending and step count data for analysis.
     - Identify whether there is a correletion between spending and physical activity levels.
 
 **Step-by-Step Plan**
-*02.12.2024 - 08.12.2024*
+
+***02.12.2024 - 08.12.2024***
+
 - Bank Account Statements
-  -Use pyhton to automate the extraction of data (e.g., date and amount spent) from PDF bank account statements. Then save the    extracted data in a .csv file for further processing.
--Step Count Data
-  - Export daily step count data from the **iPhone Health app**. Then format data into .csv files for integration with             spending data.
- 
+
+  - Use pyhton to automate the extraction of data (e.g., date and amount spent) from PDF bank account statements. Then save the extracted data in a .csv file for further processing.
+  
+- Step Count Data
+  
+  - Export daily step count data from the **iPhone Health app**. Then format data into .csv files for integration with     spending data.
+
+***09.12.2024 - 15.12.2024***
+
+- Clean missing or incorrect entries.
+- Ensure consistency in date formats between the two datasets.
+- Align spending and step count data within the same data range.
+
+***16.12.2024 - 22.12.2024***
+
+- Perfom a correlation analysis between spending and step count data.
+- Visualize spending and step count trends using plots, graphs etc.
+
+***23.12.2024 - 29.12.2024***
+
+- Report the findings.
+- Write conclusions about the relationship between physical activity and daily expenses.
 
 
-**02.12.2024 - 08.12.2024**
-- 
