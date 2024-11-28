@@ -59,7 +59,9 @@ I have two main sources of data:
     - Combine daily spending and step count data for analysis.
     - Identify whether there is a correletion between spending and physical activity levels.
 
+<br><br>
 **Step-by-Step Plan**
+<br><br>
 
 ***02.12.2024 - 08.12.2024***
 
