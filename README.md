@@ -7,17 +7,12 @@ This project aims to analyze the relationship between my daily spending from my 
 
 ## **Table of Contents**
 
-- [Features](#features)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- [Motivation](#motivation)
+- [Data Source](#data-source)
+- [Data Analysis](#data-analysis)
+- [Findings](#finding)
+- [Limitations](#limitations)
+- [Future Work](#future-work)
 
 ## **Features**
 
-- **Data Collection**: Retrieving daily spending data from the bank account and daily step count data from a smart device.
-- **Data Cleaning**: Correcting missing or erroneous data.
-- **Data Analysis**: Examining the data using statistical methods.
-- **Data Visualization**: Visualizing the results through graphs and tables.
-- **Reporting**: Reporting and interpreting the analysis results.
