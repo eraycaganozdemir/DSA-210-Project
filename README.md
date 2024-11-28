@@ -21,7 +21,7 @@ This project is motivated by a desire to gain better understanding of my persona
 
 I have two main sources of data:
 - **Bank Account Statements**:
-  My bank provides detailed account statements in PDF format. I will automate the extraction of transaction data (such as        transaction dates and amounts) using Python. Then I will use tihs extracted data.
+  My bank provides detailed account statements in PDF format. I will automate the extraction of transaction data (such as        transaction dates and amounts) using Python. Then I will use this extracted data.
 - **Step Count Data**:
   My daily step count data (such as number of steps on a specific day) is sourced from the **iPhone Health app**. Here I will    retrieve the data and integrate it into the project for analysis.
 
