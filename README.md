@@ -33,7 +33,7 @@ By analyzing the data, I aim to test this hypothesis and determine if there is a
 - What do I aim to achieve?
 
     - Automate the processing of bank account statements.
-    - Combine daily spending and step count data for analysis.
+    - Integrate and align daily spending and step count data for correlation analysis.
     - Identify whether there is a correletion between spending and physical activity levels.
 
 <br><br>
@@ -44,7 +44,7 @@ By analyzing the data, I aim to test this hypothesis and determine if there is a
 
 - Bank Account Statements
 
-  - Use pyhton to automate the extraction of data (e.g., date and amount spent) from PDF bank account statements. Then save the extracted data in a .csv file for further processing.
+  - Use Python to automate the extraction of data (e.g., date and amount spent) from PDF bank account statements. Then save the extracted data in a .csv file for further processing.
   
 - Step Count Data
   
@@ -58,7 +58,7 @@ By analyzing the data, I aim to test this hypothesis and determine if there is a
 
 ***3. Data Analysis and Visualization***
 
-- Perfom a correlation analysis between spending and step count data.
+- Perform a correlation analysis between spending and step count data.
 - Visualize spending and step count trends using plots, graphs etc.
 
 ***4. Reporting Results***
@@ -71,9 +71,12 @@ By analyzing the data, I aim to test this hypothesis and determine if there is a
 
 I have two main sources of data:
 - **Bank Account Statements**:
-  My bank provides detailed account statements in PDF format. I will automate the extraction of transaction data (such as        transaction dates and amounts) using Python. Then I will use this extracted data.
+  My bank provides detailed account statements in PDF format, including information such as transaction dates, amounts, and places of purchase. Using Python, I will automate the extraction of transaction dates and     
+  amounts, which are the key elements for my analysis. Non-essential details, such as transaction locations, will be excluded during preprocessing.
+  
 - **Step Count Data**:
-  My daily step count data (such as number of steps on a specific day) is sourced from the **iPhone Health app**. Here I will    retrieve the data and integrate it into the project for analysis.
+  My daily step count data is sourced from the iPhone Health app. This data provides the number of steps recorded for each day. I will export and format this data into .csv files to align with the spending data for 
+  comparative analysis.
 
 <br>
 
@@ -85,7 +88,8 @@ I have two main sources of data:
 
 <br>
 
-- As it can be seen on the statement it includes the date, place and the amount of money that I spent in that place and time. Some parts of this statement is not necessary in my analysis (such as place), so I will only retrieve usefull and necessary parts which are dates and expenditures.
+- The statements contain details about my spending, including the date, location, and amount. For this project, I will extract only the relevant details: dates and amounts. This data will be processed to align with my 
+  step count data for meaningful analysis.
 
 <br>
 
@@ -96,5 +100,5 @@ I have two main sources of data:
 
 <br>
 
-- In the app the the amount of steps for each day is stored, so I will retrieve those data to compare my amount of steps and my spending on the same day.
+- The iPhone Health app stores the number of steps taken each day. I will retrieve and format this data for comparison with my spending habits to explore potential correlations.
 
