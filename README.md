@@ -64,8 +64,9 @@ By analyzing the data, I aim to test this hypothesis and determine if there is a
 ***4. Hypothesis Testing***
 
 - To validate or reject the hypothesis that "On days when I walk less, I tend to spend more money,":
-      - (H₀): There is no significant relationship between daily step count and spending.
-      - (H₁): There is a negative correlation between daily step count and spending.
+  
+  - H₀: There is no significant relationship between daily step count and spending.
+  - H₁: There is a negative correlation between daily step count and spending.
 - Analyze the test results to determine if the null hypothesis can be rejected.
 
 ***5. Reporting Results***
