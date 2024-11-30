@@ -24,7 +24,7 @@ My hypothesis is that there is a negative correlation between my daily physical 
 - On days when I walk less, I tend to spend more money.
 - This behavior might stem from factors such as travelling with car, relying more on online shopping or food delivery etc.
 
-By analyzing the data, I aim to test this hypothesis and determine if there is a measurable relationship between my daily step count and spending patterns. This exploration will help uncover whether reduced physical activity directly or indirectly influences higher expenditures
+By analyzing the data, I aim to test this hypothesis and determine if there is a measurable relationship between my daily step count and spending patterns. This exploration will help uncover whether reduced physical activity directly or indirectly influences higher expenditures.
 
 
 ## **Plan**
@@ -40,7 +40,7 @@ By analyzing the data, I aim to test this hypothesis and determine if there is a
 **Step-by-Step Plan**
 <br><br>
 
-***Data Collection***
+***1. Data Collection***
 
 - Bank Account Statements
 
@@ -50,18 +50,18 @@ By analyzing the data, I aim to test this hypothesis and determine if there is a
   
   - Export daily step count data from the **iPhone Health app**. Then format data into .csv files for integration with     spending data.
 
-***Data Cleaning and Preparation***
+***2. Data Cleaning and Preparation***
 
 - Clean missing or incorrect entries.
 - Ensure consistency in date formats between the two datasets.
 - Align spending and step count data within the same data range.
 
-***Data Analysis and Visualization***
+***3. Data Analysis and Visualization***
 
 - Perfom a correlation analysis between spending and step count data.
 - Visualize spending and step count trends using plots, graphs etc.
 
-***Reporting Results***
+***4. Reporting Results***
 
 - Report the findings.
 - Write conclusions about the relationship between physical activity and daily expenses.
@@ -85,7 +85,7 @@ I have two main sources of data:
 
 <br>
 
-- As it can be seen on the statement it includes the date, place and the amount of money that I spent in that place and time. Some parts of this statement is not necessary in my analysis (such as place), so I will only retrieve dates and expenditures.
+- As it can be seen on the statement it includes the date, place and the amount of money that I spent in that place and time. Some parts of this statement is not necessary in my analysis (such as place), so I will only retrieve usefull and necessary parts which are dates and expenditures.
 
 <br>
 
