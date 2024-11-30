@@ -17,6 +17,49 @@ While thinking about a project I seek to answer the question: "Are there days wh
 
 This project is motivated by a desire to gain better understanding of my personal habits. By analyzing my bank account spendings and daily step counts, I aim to uncover patterns in my behaviour that I might not be consciously aware of.
 
+## **H
+
+
+## **Plan**
+
+**Project Objectives**
+- What do I aim to achieve?
+
+    - Automate the processing of bank account statements.
+    - Combine daily spending and step count data for analysis.
+    - Identify whether there is a correletion between spending and physical activity levels.
+
+<br><br>
+**Step-by-Step Plan**
+<br><br>
+
+***Data Collection***
+
+- Bank Account Statements
+
+  - Use pyhton to automate the extraction of data (e.g., date and amount spent) from PDF bank account statements. Then save the extracted data in a .csv file for further processing.
+  
+- Step Count Data
+  
+  - Export daily step count data from the **iPhone Health app**. Then format data into .csv files for integration with     spending data.
+
+***Data Cleaning and Preparation***
+
+- Clean missing or incorrect entries.
+- Ensure consistency in date formats between the two datasets.
+- Align spending and step count data within the same data range.
+
+***Data Analysis and Visualization***
+
+- Perfom a correlation analysis between spending and step count data.
+- Visualize spending and step count trends using plots, graphs etc.
+
+***Reporting Results***
+
+- Report the findings.
+- Write conclusions about the relationship between physical activity and daily expenses.
+
+
 ## **Data Source**
 
 I have two main sources of data:
@@ -47,46 +90,4 @@ I have two main sources of data:
 <br>
 
 - In the app the the amount of steps for each day is stored, so I will retrieve those data to compare my amount of steps and my spending on the same day.
-
-
-
-## **Plan**
-
-**Project Objectives**
-- What do I aim to achieve?
-
-    - Automate the processing of bank account statements.
-    - Combine daily spending and step count data for analysis.
-    - Identify whether there is a correletion between spending and physical activity levels.
-
-<br><br>
-**Step-by-Step Plan**
-<br><br>
-
-***02.12.2024 - 08.12.2024***
-
-- Bank Account Statements
-
-  - Use pyhton to automate the extraction of data (e.g., date and amount spent) from PDF bank account statements. Then save the extracted data in a .csv file for further processing.
-  
-- Step Count Data
-  
-  - Export daily step count data from the **iPhone Health app**. Then format data into .csv files for integration with     spending data.
-
-***09.12.2024 - 15.12.2024***
-
-- Clean missing or incorrect entries.
-- Ensure consistency in date formats between the two datasets.
-- Align spending and step count data within the same data range.
-
-***16.12.2024 - 22.12.2024***
-
-- Perfom a correlation analysis between spending and step count data.
-- Visualize spending and step count trends using plots, graphs etc.
-
-***23.12.2024 - 29.12.2024***
-
-- Report the findings.
-- Write conclusions about the relationship between physical activity and daily expenses.
-
 
