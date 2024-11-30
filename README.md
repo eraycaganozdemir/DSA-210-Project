@@ -8,8 +8,9 @@ I am Eray Çağan Özdemir (32136) and my project aims to analyze the relationsh
 ## **Table of Contents**
 
 - [Motivation](#motivation)
-- [Data Source](#data-source)
+- [Hypothesis](#hypothesis)
 - [Plan](#plan)
+- [Data Source](#data-source)
 
 ## **Motivation**
 
@@ -17,7 +18,13 @@ While thinking about a project I seek to answer the question: "Are there days wh
 
 This project is motivated by a desire to gain better understanding of my personal habits. By analyzing my bank account spendings and daily step counts, I aim to uncover patterns in my behaviour that I might not be consciously aware of.
 
-## **H
+## **Hypothesis**
+
+My hypothesis is that there is a negative correlation between my daily physical activity (step count) and my spending habits. Specifically, I believe that:
+- On days when I walk less, I tend to spend more money.
+- This behavior might stem from factors such as travelling with car, relying more on online shopping or food delivery etc.
+
+By analyzing the data, I aim to test this hypothesis and determine if there is a measurable relationship between my daily step count and spending patterns. This exploration will help uncover whether reduced physical activity directly or indirectly influences higher expenditures
 
 
 ## **Plan**
@@ -85,7 +92,7 @@ I have two main sources of data:
 **Step Count Data**
 <br><br>
 
-![image](https://github.com/user-attachments/assets/2211f9cf-5121-4ce7-9d27-6eac68785e49)
+![image](https://github.com/user-attachments/assets/1999c35d-02aa-4144-a32b-1b63f44e406c)
 
 <br>
 
