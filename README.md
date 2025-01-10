@@ -11,6 +11,7 @@ I am Eray Çağan Özdemir (32136) and my project aims to analyze the relationsh
 - [Hypothesis](#hypothesis)
 - [Plan](#plan)
 - [Data Source](#data-source)
+- [Future Work](#future-work)
 
 ## **Motivation**
 
@@ -110,3 +111,15 @@ I have two main sources of data:
 
 - The iPhone Health app stores the number of steps taken each day. I will retrieve and format this data for comparison with my spending habits to explore potential correlations.
 
+
+
+## **Future Work**
+While this project successfully explored the correlation between daily physical activity (step count) and spending habits, there are several areas that could be expanded upon in future studies:
+- Incorporating Additional Features:
+    - Include more variables, such as weather conditions, mood, or income level, to better understand the factors influencing spending patterns.
+    - Analyze time spent on sedentary activities or the use of transportation to see if these behaviors correlate with spending.
+- Data Enrichment:
+    - Combine the dataset with external data sources, such as online purchase records or subscription payments, to get a more holistic view of spending.
+    - Explore the impact of special events, holidays, or personal milestones on step counts and spending.
+- Temporal Analysis:
+    - Extend the analysis to compare patterns across different timeframes, such as weekdays versus weekends or seasonal trends.
