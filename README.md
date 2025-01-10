@@ -12,6 +12,7 @@ I am Eray Çağan Özdemir (32136) and my project aims to analyze the relationsh
 - [Plan](#plan)
 - [Data Source](#data-source)
 - [Future Work](#future-work)
+- [Presentation Video](#presentation-video)
 
 ## **Motivation**
 
@@ -123,3 +124,6 @@ While this project successfully explored the correlation between daily physical 
     - Explore the impact of special events, holidays, or personal milestones on step counts and spending.
 - Temporal Analysis:
     - Extend the analysis to compare patterns across different timeframes, such as weekdays versus weekends or seasonal trends.
+
+## **Presentation Video**
+LINK ==>> https://drive.google.com/file/d/1bWoWgByJZi62KCjUenltnPXCS9EBWjm_/view?usp=drive_link
